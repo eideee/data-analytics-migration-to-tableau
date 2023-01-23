@@ -10,7 +10,7 @@ The CSV files were converted to be pandas dataframes. Further analysis was condu
 
 The cleaned dataframes were then combined into a single dataframe, in preparation to be uploaded as a single file. The initial check indicated the total number of rows and columns. This information is important for later task in verying the total number of rows and columns that have been successfully imported into postgres database.
 
-![Total number of rows and columns]
+![Total number of rows and columns](abcdefghi.jpg)
 
 Further data cleaning was conducted on the combined dataframes to make sure that the correct data type is assigned to the columns.
 
