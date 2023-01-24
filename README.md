@@ -10,8 +10,7 @@ The CSV files were converted to be pandas dataframes. Further analysis was condu
 
 The cleaned dataframes were then combined into a single dataframe, in preparation to be uploaded as a single file. The initial check indicated the total number of rows and columns. This information is important for later task in verying the total number of rows and columns that have been successfully imported into postgres database.
 
-![Total number of rows and columns of the combined dataframe](e:/Data%20Science/AiCore/Data%20Analytics%20Migration%20to%20Tableau/number%20of%20rows%20n%20columns%20in%20the%20dataframe%20-%20to%20CSV.jpg))
-
+![number of rows n columns in the dataframe - to CSV](https://user-images.githubusercontent.com/53040471/214304267-d58ae830-5581-4659-8c42-a555a25c0b59.jpg)
 
 Further data cleaning was conducted on the combined dataframes to make sure that the correct data type is assigned to the columns.
 
