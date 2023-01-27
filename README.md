@@ -1,9 +1,9 @@
 # Data Analytics Migration to Tableau
 
-## Milestone 1 - Set up the environment
+## 1 - Set up the environment
 The repository was setup on both desktop and GitHub
 
-## Milestone 2 - Data wrangling and cleaning.
+## 2 - Data wrangling and cleaning.
 The flight data was downloaded. They were stored in different CSV files which the flight data was grouped by year.  
 
 The CSV files were converted to be pandas dataframes. Further analysis was conducted to clean the data. All rows and columns that have all their values as NULL were deleted. 
@@ -19,7 +19,7 @@ The cleaned combined dataframes was later uploaded to the S3 bucket using the AW
 ![upload csv to s3](https://user-images.githubusercontent.com/53040471/214310584-9fb11e0f-1641-4b06-b66a-4556c169cf28.jpg)
 
 
-## Milestone 3 - PostgreSQL RDS data import and reporting
+## 3 - PostgreSQL RDS data import and reporting
 
 ### Connect pgAdmin4 to PostgreSQL RDS
 DB instance was successfully created inside AWS RDS console. The endpoint address was used to connect with production_server on local host. 
@@ -47,7 +47,7 @@ The most popular destination gathered from the flights data is ORD (Orlando)
 ![destination wt highest number of flights ii](https://user-images.githubusercontent.com/53040471/214317497-6a194704-48fa-4663-a09e-ce47e610f00f.jpg)
 
 
-## Milestone 4 - Integrate Tableau Desktop with PostgreSQL RDS
+## 4 - Integrate Tableau Desktop with PostgreSQL RDS
 
 ### Download and install Tableau Desktop
 The download and installation processes were executed successfully.
@@ -55,7 +55,7 @@ The download and installation processes were executed successfully.
 ### Configure the PostgreSQL connector and connect to the flights_analytics database RDS
 Tableau was pointed to use database created inside AWS RDS  by using the same end point used to configure the production_server inside pgAdmin4.
 
-## Milestone 5 - Create Tableau Reports
+## 5 - Create Tableau Reports
 
 ### Tableau data exploration
 The total number of records reported inside Tableau matched with the postgreSQL database records. There are 24 columns and 42,722,968 rows.
