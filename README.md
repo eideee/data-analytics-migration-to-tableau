@@ -38,7 +38,7 @@ In order to verify the total number of records in the database, COUNT function w
 
 ![total number of records in db](https://user-images.githubusercontent.com/53040471/214315282-3e90e5d4-76f6-4a99-b4c8-eeebb45e8de0.jpg)
 
-Further analysis uncovred that year 1987 was the yea with the most number of flights.
+Further analysis uncovred that year 1987 was the year with the most number of flights.
 
 ![year wt highest number of flights](https://user-images.githubusercontent.com/53040471/214316295-b6f20732-29f1-40de-a34b-06e6031704bb.jpg)
 
@@ -63,20 +63,23 @@ The total number of records reported inside Tableau matched with the postgreSQL 
 ![total number of records in tableau](https://user-images.githubusercontent.com/53040471/214321125-889d6799-3f8a-48f5-afe1-ec26f42b6dcc.jpg)
 
 ### Create a Tableau report for the historical flight origins and destinations
-The graph below depicts the number of flights for each destination. The user would be able to view the result based year by clicking on the year button on the right hand side. The data has been sorted to be in descending. 
+The graph below depicts the number of flights for each destination. The user would be able to view the result based year by clicking on the year button on the right hand side. The data has been sorted to be in descending order. 
 
 ![Highest flight destinations - filtered by year](https://user-images.githubusercontent.com/53040471/214322149-e69959b6-3975-4e0f-8092-71529eb3c1e4.jpg)
 
 ### Create a Tableau report for the average distance travelled
-The bar chart below shows the average distance that each operator flew. The data was further filterred to allow users to see the bar grapgh based on year. The year dail is on the right hand side of the visual.
+The bar chart below shows the average distance that each operator flew. The data was further filterred to allow users to see the bar graph based on year. The year dail is on the right hand side of the visual.
 
 ![Average distance that carriers travelled](https://user-images.githubusercontent.com/53040471/214323038-70d29a7b-90f5-4103-8214-9eb66e22f7e3.jpg)
 
 
 ### Cretae a Tableau report for the most used flight numbers
-The line chart below was created by counting the used of flight number for both incoming and outgoing flights. The graph displays two y-axis to represent the outgoing and incoming flights. The data was then ranked to permit only top five most used flight number. The graph also indicates the flights' origins and destinations which the most used flight number flew to and from.
+The line chart below was created by summing the count of both incoming (origin) and outgoing (destination) flights, against the flight numbers. Filters were applied to display only top five most used flight numbers and top most destination.
 
-![Most used flight number](https://user-images.githubusercontent.com/53040471/214323956-7decb150-7634-4896-a327-a84a78442017.jpg)
+From the diagram below, the data suggest that the top five most used flight numbers are 711, 505, 456, 440 and 409. For all these most used flight numbers, the top destination and origin for the said flight numbers is ORD (Orlando)
+
+![Most used flight number ii](https://user-images.githubusercontent.com/53040471/215365674-a4fd156a-dcad-4b18-a2bd-d751f404587c.jpg)
+
 
 ### Create a Tableau report for flights delays and cancellations
 The dashboard below was created by combining three other worksheets. All the treemaps clearly rank and display the airports with highest number delays and cancellations.
